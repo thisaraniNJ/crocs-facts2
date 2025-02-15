@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.fact-display {
+    background-color: #e6e6fa; /* lilac */
+    color: #b8860b; /* gold */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    max-width: 400px;
+    overflow-wrap: break-word;
+}
+
+.fact-button {
+    background-color: #b8860b; /* gold */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fact-button:hover {
+    background-color: #a67c0b; /* darker gold */
+}
